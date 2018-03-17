@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Kristi|Open+Sans:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="img/logo.png">
+        
+        <title>RestDemo &mdash; Bistrot site demo</title>
+    </head>
+
+    <body>
+            <header class="header container" id="header">
+                <div class="header__logo-box" id="logobox">
+                    <a href="#"><img src="img/logo.png" alt="Logo Image" class="header__logo-img"></a> 
+                </div>
+
+                <div class="header__mobile__nav">
+                    <i class="fas fa-bars fa-2x dropbtn"></i>
+                    <div class="dropdown-content">
+                        <a href="#bistrot">Il Bistrot</a>
+                        <a href="#menus">I menu</a>
+                        <a href="#booking">Prenota</a>
+                        <a href="#contatti">Contatti</a>
+                    </div>
+                </div> 
+
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#bistrot" class="header__link">Bistrot</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#menus" class="header__link">Menu</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#booking" class="header__link">Prenotazioni</a>     
+                        </li>
+                        <li class="header__item">
+                            <a href="#contatti" class="header__link">Contatti</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+
+            <main class="container margin-top-big">
+
+               <section class="section-hero">
+                   <div class="bg-video">
+                       <video class="bg-video__content" autoplay muted loop>
+                           <source src="img/Drink-Wine.mp4" type="video/mp4">
+                           <source src="img/Drink-Wine.webm" type="video/webm">
+                            Your browser is not supported. Please update it
+                       </video>
+                   </div>
+
+                   <div class="hero__img">
+                       <div class="hero__text">
+                           <h1 class="hero__header-1 header1">
+                                Leon Bistrot
+                           </h1>
+                           <h2 class="hero__header-2 header2">
+                                Un viaggio nel gusto
+                           </h2>
+                       </div>
+                   </div>
+
+                   <div class="hero__scroll">
+                       <img src="img/scrolldown.png" alt="Scroll down icon" class="hero__scrl-img">
+                   </div>
+               </section>
+
+               <section class="section-bistrot margin-top-huge margin-bottom-huge" id="bistrot">
+                   <div class="bistrot__box">
+                       <div class="bistrot__img">
+                           <img src="img/bistro1.jpg" alt="Bistrot Image 1">
+                       </div>
+
+                       <div class="bistrot__content">
+                           <div class="bistrot__headings">
+                               <h1 class="header4">Le origini di</h1>
+                               <h2 class="header3">Una storia secolare</h2>
+                           </div>
+                           <div class="bistrot__text margin-top-small">
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad modi doloribus fuga quam, totam, porro adipisci nam sit nesciunt ut error, nostrum tempora temporibus obcaecati recusandae eveniet expedita! Magnam, eos!</p>
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad modi doloribus fuga quam, totam, porro adipisci nam sit nesciunt ut error, nostrum tempora temporibus obcaecati recusandae eveniet expedita! Magnam, eos!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad modi doloribus fuga quam, totam, porro adipisci nam sit nesciunt ut error, nostrum tempora temporibus obcaecati recusandae eveniet expedita! Magnam, eos!</p>
+                           </div>
+                       </div>
+                   </div>
+               </section>
+
+               <section class="section-menus" id="menus">
+                   <h2 class="menu__heading header2">le nostre offerte</h2>
+
+                   <div class="menu__container margin-top-medium margin-bottom-huge">
+
+                        <div class="menu__box menu__box-1">
+                            <div class="menu__content">
+                                <h3 class="menu__heading header3 margin-bottom-small">Pranzo</h3>
+                                <h4 class="menu__item">Dal lunedì al venerdì dalle 12,00 alle 14,30</h4>
+                                <p class="menu__item">1 Primo piatto a scelta</p>
+                                <p class="menu__item">1 Contorno a scelta</p>
+                                <p class="menu__item">1 Caffè, acqua e coperto</p>
+                                <span>18€</span>
+                                <div class="overlay">
+                                    <div class="text"><a href="#booking">Prenota un tavolo</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu__box menu__box-2">
+                            <div class="menu__content">
+                                <h3 class="menu__heading header3 margin-bottom-small">Cena</h3>
+                                <h4 class="menu__item">Dal lunedì al venerdì dalle 19,30 alle 23,00</h4>
+                                <p class="menu__item">1 Primo piatto a scelta</p>
+                                <p class="menu__item">1 Secondo con contorno a scelta</p>
+                                <p class="menu__item">1 Caffè, acqua e coperto</p>
+                                <span>25€</span>
+                                <div class="overlay">
+                                    <div class="text"><a href="#booking">Prenota un tavolo</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu__box menu__box-3">
+                            <div class="menu__content">
+                                <h3 class="menu__heading header3 margin-bottom-small">Alla carta</h3>
+                                <h4 class="menu__item">Dal lunedì al sabato dalle 12,00 alle 14,30 a dalle 19,30 alle 23,00</h4>
+                                <p class="menu__item">Ampia scelta tra i grandi piatti della tradizione italiana ed ardite sperimentazioni culinarie</p>
+                                <span></span>
+                                <div class="overlay">
+                                    <div class="text"><a href="#booking">Prenota un tavolo</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                   </div>
+               </section>
+
+               <section class="section-booking" id="booking">
+
+                   <div class="booking__container">
+                        <div class="booking__header margin-top-small">
+                            <h3 class="header3 margin-bottom-small">Prenota un tavolo</h3>
+                            <i class="far fa-clock fa-7x"></i>
+                            <i class="far fa-clock fa-5x"></i>
+                            <p>A pranzo 12:00-14:30 / A cena 19:30-23,00</p>
+                        </div>
+                        <div class="booking__form margin-top-small">
+                            <form action="#" class="form">
+                                <div class="form__group">
+                                    <input id='name' type="text" class="form__input" placeholder="Nome" name="name" required>
+                                    <input id='date' type="text" class="form__input" placeholder="Data" name="date" required>
+                                    <input type="email" class="form__input" placeholder="Email" name="email" required>
+                                    <input type="text" class="form__input" name="seats" placeholder="Posti" required>
+                                    <button type="submit" class="btn u-margin-top-small">Prenota</button>
+                                </div>
+                            </form>
+                        </div>
+                   </div>
+               </section>
+
+               <section class="section-contatti" id="contatti">
+
+                   <div class="contatti__landscape"></div>
+
+                   <div class="contatti__content">
+                       <div class="contatti__heading">
+                           <h2 class="contatti__header2 header2">Ti aspettiamo</h2>
+                        </div>
+                           <p class="contatti__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis alias facere libero, odio ea at. Dolorem sapiente laborum consectetur eius totam assumenda reiciendis, temporibus error. Veritatis ullam corrupti adipisci impedit?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, ab. Magnam modi et exercitationem esse maxime sit omnis distinctio cum, facere rerum vitae suscipit quam, id ipsum, inventore neque dolorum.</p>
+                           <p class="contatti__text">Via Garibaldi 12<br>36100 Vicenza VI<br>Telefono: +39 0444 662856<br>Fax: +39 0444 986334<br>Email: info@leonbistrot.it</p>
+                   </div>
+               </section>
+
+               <footer class="container footer" id="footer">
+
+                   <div class="footer__logo-strip">
+                        <img src="img/logo.png" alt="Logo Image" class="footer__logo-img">
+                   </div>
+                <ul class="footer__list margin-top-medium">
+                    <li class="footer__item">
+                        <a href="#bistrot" class="footer__link">Il Bistrot</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#menus" class="footer__link">Menu</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#contatti" class="footer__link">Contatti</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#footer" class="footer__link">Credits</a>
+                    </li>
+                </ul>
+
+                <div class="footer__social margin-top-small">
+                    <div class="footer__social-heading">
+                        <h4 class="header4">Seguici su</h4>
+                    </div>
+                    <div class="social__list">
+                        <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor fa-3x"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__copyright margin-top-medium">
+                    <p>&copy; 2018 LEON BISTROT - Via Garibaldi, 12 - 36100 Vicenza ITALY</p>
+                </div>
+
+               </footer>
+            </main>
+
+
+
+
+            <script>
+                    // When the user scrolls down 20px from the top of the document, slide down the navbar
+                window.onscroll = function() {scrollFunction()};
+                    
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 && window.innerHeight + window.scrollY < document.body.scrollHeight) {
+                        document.getElementById("logobox").style.height = "9rem";
+                        document.getElementById("header").style.height = "10rem";
+                    } else {
+                        document.getElementById("logobox").style.height = "0";
+                        document.getElementById("header").style.height = "5rem";
+                    } 
+                }  
+            </script>
+    </body>
+</html>
