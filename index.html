@@ -52,9 +52,11 @@
                <section class="section-hero">
                    <div class="bg-video">
                        <video class="bg-video__content" autoplay muted loop>
-                           <source src="img/Drink-Wine.mp4" type="video/mp4">
-                           <source src="img/Drink-Wine.webm" type="video/webm">
-                            Your browser is not supported. Please update it
+                           <source src="img/Drink-Wine.mp4" type="video/mp4" media="all and (min-width:600px)">
+                           <source src="img/Drink-Wine.webm" type="video/webm" media="all and (min-width:600px)"> 
+                           <source src="img/Drink-Wine-small.mp4" type="video/mp4" media="all and (max-width:599px)">
+                           <source src="img/Drink-Wine-small.webm" type="video/webm" media="all and (max-width:599px)">
+                           Your browser is not supported. Please update it
                        </video>
                    </div>
 
@@ -77,7 +79,11 @@
                <section class="section-bistrot margin-top-huge margin-bottom-huge" id="bistrot">
                    <div class="bistrot__box">
                        <div class="bistrot__img">
-                           <img src="img/bistro1.jpg" alt="Bistrot Image 1">
+                           
+                            <img srcset="img/bistro1-small.jpg 1200w, img/bistro1.jpg 2000w" alt="Bistrot Image 1"
+                            sizes="(max-width: 56.25em) 80vw, (max-width: 37.5em) 100vw, 720px" 
+                            src="img/bistro1.jpg">
+
                        </div>
 
                        <div class="bistrot__content">
